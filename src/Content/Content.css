@@ -1,0 +1,8 @@
+.PostWrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ContentWrapper{
+    margin: 1rem 2rem;
+}

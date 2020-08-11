@@ -1,0 +1,35 @@
+.HeaderWrapper{
+    display: flex;
+    background-color: tomato;
+    height: 60px;
+}
+
+.HeaderWrapper p{
+    position: absolute;
+    display: block;
+    left: 2rem;
+}
+
+.MenuItems{
+    display: flex;
+    position: absolute;
+    right: 1rem;
+}
+
+.MenuItems  li{
+    list-style: none;
+    margin-right: 1.5rem;
+    
+}
+
+.MenuItems li .link{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+
+.MenuItems  li .link:hover{
+    background-color: royalblue;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
